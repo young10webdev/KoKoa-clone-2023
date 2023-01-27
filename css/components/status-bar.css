@@ -1,0 +1,31 @@
+/*status-bar 3개 span이 한줄에 오도록 한다*/ 
+.status-bar {
+    display: flex; 
+    /* 한줄에 놓기 */
+    justify-content: center;
+    /* 떨어트려 놓기 */
+    padding: 5px 3px;
+}
+.status-bar__column {
+    width: 33%;
+}
+/* 모든 콜롬의 넓이를 33%로 한다 */
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}  
+/* 두번재 콜롬을 가운데로 옮기면 시간이 중앙으로 온다 */
+.status-bar__column:last-child {
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+/* 베터리와 번개 아이콘을 오른쪽으로 옮겨준다. */
+.status-bar__column .fa-battery-full {
+    margin: 0px 5px;
+}
+/* 다닥다닥 붙어있는 아이콘들 사이에 공간을 준다. */
+.status-bar__column:first-child span {
+    margin-right: 5px;
+}
+ /* no service와 wifi icon에 공간을 준다 */ 
