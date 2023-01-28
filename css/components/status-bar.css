@@ -1,5 +1,8 @@
 /*status-bar 3개 span이 한줄에 오도록 한다*/ 
 .status-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex; 
     /* 한줄에 놓기 */
     justify-content: center;
@@ -14,7 +17,7 @@
     display: flex;
     justify-content: center;
 }  
-/* 두번재 콜롬을 가운데로 옮기면 시간이 중앙으로 온다 */
+/* 두번재 콜롬을 가운데로 옮겨 시간이 중앙으로 오도록 한다. */
 .status-bar__column:last-child {
     display:flex;
     justify-content:flex-end;
