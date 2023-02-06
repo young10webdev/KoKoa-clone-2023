@@ -1,0 +1,92 @@
+ 
+/* open chat */
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top:  var(--main-border);
+    border-bottom:  var(--main-border);
+
+}
+.recommended-friends__title {
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+
+}
+.recommended-friends span {
+    margin: 110px 0;
+    display: block;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+    font-size: 18px;
+}
+/* span이 inline 이므로 block으로 만들어줘야 margin이 적용된다.  */
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+.open-chat__header span{
+    opacity: 0.6;
+}
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.open-post__hashtag {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.open-post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.open-post__members img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.open-post__member-count, .divider{
+    opacity: 0.5;
+    padding-right: 5px;
+}     
+.open-post__member-status {
+    color: #ffb0e0;
+}
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__photo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+ 
+
+
+}
+.open-post__heart-count {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+}
+..open-post__heart-count span{
+    margin-left: 3px;
+}

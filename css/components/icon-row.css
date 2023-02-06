@@ -1,0 +1,29 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+ 
+}
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.icon-row__icon i {
+    font-size: 35px;
+}
+.icon-row__icon span {
+    margin-top: 40px;
+}
+.screen-header__icons {
+    position: relative;
+}
+.cog__notification {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 15px;
+    left: 90px;
+}
