@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../screenshots"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "KoKoa-clone-2023"
+  }
+}

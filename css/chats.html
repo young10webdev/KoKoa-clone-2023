@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - kokoa Clone</title> 
+    <title>Chats - kokoa Clone</title> 
     <link rel="stylesheet" type="text/css" href="css/styles.css" >
     <!-- link:css then press enter -->
 </head>
@@ -24,56 +24,36 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
-        <div class="screen-header__icons">
-          <span><i class="fas fa-search fa-lg"></i></span>
-          <span><i class="fas fa-music fa-lg"></i></span>
-          <span><i class="fas fa-cog fa-lg"></i></span>
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="talk.png"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Kokoa Account Info
+            </h6>
+          </div>
         </div>
-      </header>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </main>
 
-      <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i>Friend's Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-      </a>
-      <main class="friends-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-              <img
-                src="kids.png"
-                class="user-component__avatar user-component__avatar--xl"/>
-              <div class="user-component__text">
-                <h4 class="user-component__title  user-component__title--not-bold">Grace</h4>
-             <!--<h6 class="user-component__subtitle">Hello friends!</h6> -->
-              </div>
-            </div>
-            <div class="user-component__column"></div>
-          </div>
-          <!-- channel part -->
-          <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-          </div>
-          <div class="user-component">
-            <div class="user-component__column">
-              <img
-                src="chat.png"
-                class="user-component__avatar user-component__avatar--sm"/>
-              <div class="user-component__text">
-                <h4 class="user-component__title">Channel</h4>
-             <!--<h6 class="user-component__subtitle">Hello friends!</h6> -->
-              </div>
-            </div>
-            <div class="user-component__column">
-                <span>2</span>
-                <i class="fas fa-chevron-right fa-xs"></i>
-
-            </div>
-
-      </main>
-   
       
   
 
@@ -85,7 +65,7 @@
           </li>
           <li class="nav__btn">
             <a class="nav__link" href="chat.html">
-              <span class="nav__notification">1</span>
+              <span class="nav__notification badge">1</span>
               <i class="far fa-comment fa-2x"></i>
             </a>
           </li>
@@ -103,7 +83,7 @@
         </ul>
       </nav>
       <div id="no-mobile">
-        <span>Your screen is too big ㅠㅠ</span>
+        <span>Your screen is too big 😭</span>
        </div>
     <script
     src="https://kit.fontawesome.com/6478f529f2.js"

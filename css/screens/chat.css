@@ -89,7 +89,7 @@
     font-size: 18px;
   }
 .message-row--own{
-    background-color: white;
+  
     justify-content: flex-end;
 }
 .message-row--own .message__bubble {
